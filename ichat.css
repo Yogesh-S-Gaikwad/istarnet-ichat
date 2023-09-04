@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 4rem;
+    background-color: #b5020b;
+    justify-content: space-between;
+}
+.back_arrow{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(207, 194, 194, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: green;
+}
+.right_icons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    align-items: center;
+    margin: 0;
+    color: white;
+}
+.magnifying-glass_icon,.back-icon{
+    color: white;
+}
+.name2,.mail{
+    text-align: center;
+    margin: 0;
+    font-size: smaller;
+}
+.mail{
+    color: #ccc;
+}
+.profile-pic{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-image: url(img/profile.jpg);
+    background-size: cover;
+
+}
+.footer{
+    height: 3rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    
+}
+.add-file-btn{
+    border: transparent;
+}
+.choose-file{
+    display: inline-flex;
+    display: none;
+ 
+}
+.upload-file{
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    
+ 
+}
+.upload-btn{
+    background: #ddd;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+}
+.send-btn{
+    border: transparent;
+    border-radius: 4px;
+    background-color: #ddd;
+    height: 2rem;
+    width: 10%;
+}
+.msg-input{
+    width: 70%;
+    font-size: small;
+    background-color: #ddd;
+    height: 2rem;
+    border: transparent;
+    border-radius: 4px;
+    padding: 5px;
+}
